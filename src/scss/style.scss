@@ -1,0 +1,28 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import 
+  "fonts",
+  "variables",
+  "global",
+  './components/modal',
+  "./components/navbar",
+  "./components/header-content",
+  "./components/our-products",
+  "./components/our-exp",
+  "./components/our-partners",
+  "./components/footer",
+  './components/about-header__content',
+  './components/about-more',
+  './components/about-power',
+  './components/about-adv',
+  './components/about-lab',
+  './components/404',
+  './components/contact-main',
+  './components/search-result',
+  './components/category',
+  './components/product-sp',
+  './components/product-category';

@@ -1,0 +1,41 @@
+.not-found {
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & picture {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    & img {
+      @media (max-width:920px) {
+        max-width: 80%;
+        width: 100%;
+      }
+    }
+    &_title {
+      font-family: BebasNeue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 80px;
+      line-height: 100px;
+      text-align: center;
+      color: #2D2D2D;
+    }
+    &_text {
+      font-family: BebasNeue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 100px;
+      text-align: center;
+      color: #2D2D2D;
+      & a {
+        color: #0C48C6;
+        text-decoration: underline;
+      }
+    }
+  }
+}
